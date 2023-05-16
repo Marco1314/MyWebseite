@@ -1,0 +1,39 @@
+.infos {
+  margin-top: 300px;
+}
+
+.infos__accordion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.infos__accordion--spinner {
+  font-size: 50px;
+}
+
+.infos__accordion--info {
+  width: 100%;
+}
+
+.infos__accordion--title {
+  font-weight: 900;
+  color: #8247b2;
+}
+
+@media only screen and (min-width: 900px) {
+  .infos__accordion--content {
+    width: 90%;
+  }
+}
+
+.infos__content {
+  display: none;
+  color: #f946c0;
+}
+/*# sourceMappingURL=accordion.css.map */

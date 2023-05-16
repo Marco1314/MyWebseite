@@ -1,0 +1,35 @@
+.infos {
+    margin-top: 300px;
+
+    &__accordion {
+        width: 100%;
+        display: flex;
+        padding-left: 25px;
+        padding-right: 25px;
+        box-sizing: border-box;
+
+        &--spinner {
+            font-size: 50px;
+        }
+
+        &--info {
+            width: 100%;
+        }
+
+        &--title {
+            font-weight: 900;
+            color: #8247b2;
+        }
+
+        &--content {
+            @media only screen and (min-width:900px) {
+                width: 90%;
+            }
+        }
+    }
+
+    &__content {
+        display: none;
+        color: #f946c0;
+    }
+}
