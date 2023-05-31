@@ -7,6 +7,7 @@ export default function Main({ values }) {
                         <p className="infos__accordion--title">{value.title}</p>
                         <div className="infos__content">
                             <p className="infos__accordion--content">{value.content}</p>
+                            <a className="infos__accordion--content" href="mailto:development@pagestars.net">{value.link}</a>
                         </div>
                     </div>
                     <div className="infos__accordion--spinner">^</div>
